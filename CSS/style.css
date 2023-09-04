@@ -8,12 +8,14 @@ body {
 .btn-primary {
     color: #FFF;
     border: none;
-    border-radius: 8px;
+    border-radius: 18px;
     background-color: #FF900E;
     font-size: 20px;
     font-weight: 600;
     padding: 20px 25px;
     margin-top: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 
 /* header styles */
@@ -74,4 +76,30 @@ nav li a {
     margin-top: 30px;
     margin-bottom: 0;
 
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576.1px) and (max-width: 960px) {
+    header {
+        padding: 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
 }
